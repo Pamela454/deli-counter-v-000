@@ -17,6 +17,7 @@ def take_a_number(array, string1)
     puts "Welcome, #{string1}. You are number #{array.length} in line."
   else array ==! []
     array[-1] << string1
+    puts "Welcome, #{string1}. You are number #{array.length} in line."
 end
 end
 
