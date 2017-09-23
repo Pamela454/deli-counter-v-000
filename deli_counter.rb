@@ -11,7 +11,7 @@ if array == another_deli
 end
 end
 
-def take_a_number(array,string)
+def take_a_number(array, string)
   if array == []
     array.push('string')
     return "Welcome, #{string}. You are number #{array.length} in line."
