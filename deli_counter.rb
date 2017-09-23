@@ -11,10 +11,10 @@ if array == another_deli
 end
 end
 
-def take_a_number(array, string)
+def take_a_number(array, string1)
   if array == []
-    array << string
-    return "Welcome, #{string}. You are number #{array.length} in line."
+    array << string1
+    return "Welcome, #{string1}. You are number #{array.length} in line."
     print array
 end
 end
