@@ -14,7 +14,7 @@ end
 def take_a_number(array, string)
   if array == 0
     puts array << "string"
-    return "Welcome, #{string}. You are number #{array.length} in line."  
+    return "Welcome, #{string}. You are number #{array.length} in line."
     end
 end
 
